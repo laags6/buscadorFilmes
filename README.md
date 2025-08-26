@@ -12,8 +12,6 @@ O objetivo é criar uma aplicação web que consome uma API pública para exibir
 - 📽️ Exibe título, poster, sinopse e nota do IMDb;
 - 🎨 Design responsivo;
 
-
-
 ### 🛠️ Tecnologias Utilizadas: 
 - HTML5
 - CSS3
@@ -22,4 +20,6 @@ O objetivo é criar uma aplicação web que consome uma API pública para exibir
 - Google Fonts
 - VScode
 
-**Acesso:** ()
+---
+
+**Acesso:** [Link buscador de filmes](https://laags6.github.io/buscadorFilmes/)
