@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    
+}
+
+body {
+    background-color: #181425;
+    color: #ffffff;
+    text-align: center;
+}
+
+.buscar {
+    background-color: #262b44;
+    padding: 4.375rem;
+
+}
+
+.buscar h1 {
+    margin-bottom: 1rem ;
+}
+
+form {
+    margin-top: 0.625rem;
+    padding: 0.625rem;
+    display: flex;
+    justify-content: center;
+}
+
+form input#pesquisador {
+    width: 70%;
+    padding: .875rem;
+    border: none;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    font-size: .9375rem;
+    color: #ffffff;
+    background-color: #5a6988;
+    transition: 0.2s ;
+}
+
+input::placeholder {
+    color: #dbdbdb;
+}
+
+input:focus {
+    box-shadow: 0 0 10px #658c97;
+    outline: none;
+}
+
+form button {
+    padding: .9375rem;
+    border: none;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    
+    cursor: pointer;
+    color: #ffffff;
+    background: #0099DB;
+    background: linear-gradient(90deg,rgba(0, 153, 219, 1) 0%, rgba(18, 78, 137, 1) 100%);
+    
+    transition: 0.2s;
+}
+
+form button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #3f5c64;
+}
+
+form button:focus {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #3f5c64;
+    outline: none;
+}
+
+.filme {
+    margin: 1.875rem ;
+    padding: .3125rem;
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    margin-right: 1.25rem;
+    text-align: left;
+    max-width: 400px;
+    overflow: hidden;
+}
+
+#filmTitulo {
+    margin-bottom: .9375rem;
+}
+
+#avaliacao {
+    margin: .625rem 0px ;
+}
+
+#descricao {
+    margin: .625rem 0px ;
+}
+
+#poster {
+    margin-left: .9375rem;
+}
+
+
+/* ------------- RESPONSIVIDADE ------------- */
+
+@media (max-width: 677px) {
+    
+    .buscar {
+        background-color: #262b44;
+        padding: 4.375rem;
+    }
+
+    .buscar h1 {
+        margin-bottom: 1rem ;
+    }
+
+    form {
+        margin-top: 0.625rem;
+        padding: 0.625rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    form input#pesquisador {
+        width: 70%;
+        padding: .875rem;
+        border: none;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        font-size: .9375rem;
+        color: #ffffff;
+        background-color: #5a6988;
+        transition: 0.2s ;
+    }
+
+    input::placeholder {
+        color: #dbdbdb;
+    }
+
+    input:focus {
+        box-shadow: 0 0 10px #658c97;
+        outline: none;
+    }
+
+    form button {
+        padding: .9375rem;
+        border: none;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        
+        cursor: pointer;
+        color: #ffffff;
+        background: #0099DB;
+        background: linear-gradient(90deg,rgba(0, 153, 219, 1) 0%, rgba(18, 78, 137, 1) 100%);
+        
+        transition: 0.2s;
+    }
+
+    form button:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 10px #3f5c64;
+    }
+
+    form button:focus {
+        transform: scale(1.05);
+        box-shadow: 0 0 10px #3f5c64;
+        outline: none;
+    } 
+
+    .filme {
+        margin: 1.875rem ;
+        padding: .3125rem;
+        display: grid;
+        justify-content: center;
+        
+    }
+
+    .info {
+        margin-bottom: 1.25rem;
+        text-align: center;
+        max-width: 400px;
+        overflow: hidden;
+    }
+
+    #filmTitulo {
+        margin: .9375rem;
+    }
+
+    #avaliacao {
+        margin: .625rem 0px ;
+    }
+
+    #descricao {
+        margin: .625rem 0px ;
+        text-align: justify;
+    }
+
+    #poster {
+        margin: auto;
+    }
+
+
+
+}
+
+@media (max-width: 450px) {
+    .buscar {
+        background-color: #fff673;
+        padding: 4.375rem;
+    }
+
+    .buscar h1 {
+        margin-bottom: 1rem ;
+    }
+
+    form {
+        margin-top: 0.625rem;
+        padding: 0.625rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    form input#pesquisador {
+        width: 70%;
+        padding: .875rem;
+        border: none;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        font-size: .9375rem;
+        color: #ffffff;
+        background-color: #5a6988;
+        transition: 0.2s ;
+    }
+
+    input::placeholder {
+        color: #dbdbdb;
+    }
+
+    input:focus {
+        box-shadow: 0 0 10px #658c97;
+        outline: none;
+    }
+
+    form button {
+        padding: .9375rem;
+        border: none;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        
+        cursor: pointer;
+        color: #ffffff;
+        background: #0099DB;
+        background: linear-gradient(90deg,rgba(0, 153, 219, 1) 0%, rgba(18, 78, 137, 1) 100%);
+        
+        transition: 0.2s;
+    }
+
+    form button:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 10px #3f5c64;
+    }
+
+    form button:focus {
+        transform: scale(1.05);
+        box-shadow: 0 0 10px #3f5c64;
+        outline: none;
+    } 
+
+
+
+
+}
