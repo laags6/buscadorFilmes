@@ -18,7 +18,27 @@ body {
 }
 
 .buscar h1 {
-    margin-bottom: 1rem ;
+    text-shadow: 0 0 12px #1fa5ff56;
+}
+
+#creator a {
+    background: #1868B7;
+    background: linear-gradient(to left, #1868B7, #0099DB);
+
+    background-clip: text;
+    color: transparent;
+}   
+
+a:hover {
+    text-shadow: 0 0 12px #1fa5ff56;
+}
+
+a:visited {
+    background: #1868B7;
+    background: linear-gradient(to left, #1868B7, #0099DB);
+
+    background-clip: text;
+    color: transparent;
 }
 
 form {
@@ -58,7 +78,7 @@ form button {
     cursor: pointer;
     color: #ffffff;
     background: #0099DB;
-    background: linear-gradient(90deg,rgba(0, 153, 219, 1) 0%, rgba(18, 78, 137, 1) 100%);
+    background: linear-gradient(90deg,#0099db 0%, #124e89 100%);
     
     transition: 0.2s;
 }
@@ -209,30 +229,32 @@ form button:focus {
 
 @media (max-width: 450px) {
     .buscar {
-        background-color: #fff673;
-        padding: 4.375rem;
+        background-color: #262b44;
+        padding: 2.8125rem .625rem;
     }
 
     .buscar h1 {
         margin-bottom: 1rem ;
+        font-size: 1.625rem;
     }
 
     form {
         margin-top: 0.625rem;
         padding: 0.625rem;
-        display: flex;
+        display: block;
         justify-content: center;
     }
 
     form input#pesquisador {
-        width: 70%;
         padding: .875rem;
+        margin-bottom: .625rem;
         border: none;
-        border-top-left-radius: 12px;
-        border-bottom-left-radius: 12px;
+        border-radius: 12px;
         font-size: .9375rem;
         color: #ffffff;
         background-color: #5a6988;
+
+        transform: scale(0.9);
         transition: 0.2s ;
     }
 
@@ -246,16 +268,16 @@ form button:focus {
     }
 
     form button {
-        padding: .9375rem;
+        padding: .625rem.9375rem;
+        margin-top: .3125rem;
         border: none;
-        border-top-right-radius: 12px;
-        border-bottom-right-radius: 12px;
+        border-radius: 12px;
         
         cursor: pointer;
         color: #ffffff;
         background: #0099DB;
         background: linear-gradient(90deg,rgba(0, 153, 219, 1) 0%, rgba(18, 78, 137, 1) 100%);
-        
+
         transition: 0.2s;
     }
 
